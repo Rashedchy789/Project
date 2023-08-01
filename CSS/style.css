@@ -107,10 +107,11 @@ nav {
   font-weight: 800;
   color: #7e8287;
 }
-#link img {
-  margin: auto;
-  display: block;
+#link .icon i {
   padding-bottom: 32px;
+  font-weight: 900;
+  font-size: 30px;
+  color: #02918c;
 }
 /* about ends */
 
@@ -139,9 +140,6 @@ nav {
 #link .icon:last-child {
   border: none;
 }
-#link .icon img {
-  width: 30px;
-}
 /* icon end */
 
 /* services */
@@ -159,9 +157,9 @@ nav {
 }
 .box h4 {
   color: #7e8287;
-  padding: 25px 0;
   font-size: 16px;
   font-weight: 800;
+  padding: 18px 0 21px 0;
 }
 .services h2 {
   color: #02918c;
@@ -176,9 +174,16 @@ nav {
 #service p {
   color: #7e8287;
   line-height: 26px;
+  font-size: 11px;
 }
 .box img {
   padding: 58px 0 0 0;
+}
+#service .box i {
+  padding: 56px 0 15px 0;
+  font-weight: 900;
+  font-size: 30px;
+  color: #02918c;
 }
 /* services ends */
 
@@ -267,6 +272,7 @@ nav {
   outline: none;
   margin-bottom: 45px;
 }
+/* form ends */
 #footer {
   background-color: black;
   text-align: center;
@@ -274,4 +280,3 @@ nav {
   color: #76797e;
   padding: 31px 0 25px 0;
 }
-/* form ends */
