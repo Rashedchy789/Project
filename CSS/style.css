@@ -107,11 +107,17 @@ nav {
   font-weight: 800;
   color: #7e8287;
 }
+
 #link .icon i {
   padding-bottom: 32px;
   font-weight: 900;
   font-size: 30px;
   color: #02918c;
+}
+#link .container img {
+  display: block;
+  margin: auto;
+  padding-bottom: 36px;
 }
 /* about ends */
 
